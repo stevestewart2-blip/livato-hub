@@ -1,6 +1,6 @@
 name: "Livato Hub"
 description: "Connects your smart home devices to Livato"
-version: "1.0.0"
+version: "1.0.2"
 slug: "livato_hub"
 init: false
 arch:
