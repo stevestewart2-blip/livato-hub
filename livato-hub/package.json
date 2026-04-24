@@ -1,0 +1,9 @@
+{
+  "name": "livato-hub",
+  "version": "1.0.0",
+  "description": "Livato Hub - local network device discovery and control",
+  "main": "hub.js",
+  "dependencies": {
+    "node-fetch": "2.6.9"
+  }
+}
