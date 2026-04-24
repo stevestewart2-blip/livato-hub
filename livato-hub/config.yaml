@@ -1,0 +1,25 @@
+name: "Livato Hub"
+description: "Connects your smart home devices to Livato"
+version: "1.0.0"
+slug: "livato_hub"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armv7
+startup: services
+boot: auto
+homeassistant_api: true
+hassio_api: true
+options:
+  livato_server: "https://livato-server-production.up.railway.app"
+  livato_token: ""
+  scan_interval: 30
+  network_subnet: "192.168.0"
+schema:
+  livato_server: str
+  livato_token: str
+  scan_interval: int
+  network_subnet: str
+map:
+  - config:rw
